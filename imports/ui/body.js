@@ -9,3 +9,4 @@ Template.body.helpers({
     return Tasks.find({});
   },
 });
+
