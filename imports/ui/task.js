@@ -7,7 +7,7 @@ import './task.html';
 
 Template.task.helpers({
     isOwner() {
-      return this.owner === Meteor.userId();
+      return this.owner === this.userId;
     },
   });
    
